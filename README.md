@@ -1,1 +1,2 @@
 # Calculadora-em-JS
+# O objetivo desse projeto ainda é continuar com os estudos do JavaScript, ainda tenho muita coisa a ver dentro dessa linguagem antes de adentrar no React js, com isso posso estar validando conhecimentos importantes na linguagem, quero tentar desenvolver esse projeto solo, apenas pesquisando sobre ferramentas ou funções que não conheço.
