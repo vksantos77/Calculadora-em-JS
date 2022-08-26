@@ -12,20 +12,23 @@
     <div class="main">
 
         <div class="form">
-            <form action="script/script.js" method="post" id="signup-form">
+            <form action="script/script.js" method="post" id="cadastro">
 
                 <div>
 
-                    <label class="cima" for="n1" Placeholder="Digite o Primeiro Número"></label>
-                    <input type="number" id="number1"/>
-                    <br>
-                    <label class="baixo"for="n2" Placeholder="Digite o Seegundo Número"></label>
-                    <input type="number" id="number2"/>    
-
-                    <br>
-                    <input type="submit" id="meu-submit" value="Enviar"/>
-
+                    <label class="cima" for="n1" >Digite o Primeiro Número</label>
+                    <input type="number" id="number1" name="number1"/>
                 </div>
+                    
+            <div>
+                    <label class="baixo"for="n2" >Digite o Segundo Número</label>
+                    <input type="number" id="number2" name="number2"/>    
+
+            </div>
+                <div>
+                    <button type="submit" id="meu-submit" onclick="mostrarValor()"value="Enviar">Enviar</button>
+                </div>
+               
 
             </form>
         </div>
